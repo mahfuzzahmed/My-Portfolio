@@ -38,7 +38,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn btn-outline text-2xl font-extrabold">Resume</button>
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1ZZeiXKRgHJkOvYGmVSZD9OBzv87vzkVz?usp=sharing"><button className="btn btn-outline text-2xl font-extrabold">Resume</button></a>
                 </div>
             </div>
         </div>

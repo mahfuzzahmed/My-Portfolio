@@ -13,7 +13,7 @@ const Banner = () => {
                     <p className="py-5 text-gray-800 font-semibold">
                         "I’m a BBA student turned web developer, passionate about crafting <br /> responsive, user-friendly websites and transforming creative ideas into <br />functional digital solutions."
                     </p>
-                    <button className="btn btn-outline font-extrabold">Download Resume</button>
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1ZZeiXKRgHJkOvYGmVSZD9OBzv87vzkVz?usp=sharing"><button className="btn btn-outline font-extrabold">Download Resume</button></a>
                 </div>
             </div>
         </div>

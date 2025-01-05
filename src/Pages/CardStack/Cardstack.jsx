@@ -7,33 +7,33 @@ const Cardstack = () => {
     const cards = [
         {
             id: 1,
-            title: "E-Commerce Dashboard",
+            title: "Better Bites -Food Sharing Website",
             description:
-                "A comprehensive dashboard for managing online store inventory, sales analytics, and customer data.",
+                "This project connects food donors with those in need, enabling users to browse, request, and manage food donations, reducing food waste through a user-friendly web platform.",
             technologies: ["React", "Tailwind", "DaisyUI"],
             image: "https://i.ibb.co.com/Y7hkptW/989shots-so.png",
-            liveLink: "https://project1.demo",
-            githubLink: "https://github.com/demo/project1",
+            liveLink: "https://food-sharing-platform.web.app/",
+            githubLink: "https://github.com/programming-hero-web-course2/b10a11-server-side-mahfuzzahmed",
         },
         {
             id: 2,
-            title: "Social Media Platform",
+            title: "Cine Verse -Movie Streaming Website",
             description:
-                "Modern social networking application with real-time messaging, post sharing, and user interactions.",
+                "CineVerse is a dynamic movie portal where users can explore, add, and curate favorite movies, featuring a rich library, personalized lists, and showcases of trending and featured films.",
             technologies: ["React", "Tailwind", "DaisyUI"],
             image: "https://i.ibb.co.com/jLBN11f/screenshot-rocks.png",
-            liveLink: "https://project2.demo",
-            githubLink: "https://github.com/demo/project2",
+            liveLink: "https://movie-portal-6588d.web.app/",
+            githubLink: "https://github.com/programming-hero-web-course2/b10-a10-client-side-mahfuzzahmed",
         },
         {
             id: 3,
-            title: "Task Management App",
+            title: "Eco Adventure -Adventure Booking Portal",
             description:
-                "Collaborative task management tool with drag-and-drop interface, task prioritization, and team collaboration.",
+                "his project showcases eco-friendly adventures like mountain treks and ocean dives, offering detailed information, expert consultation, and personalized experiences through user profiles and registration.",
             technologies: ["React", "Tailwind", "DaisyUI"],
             image: "https://i.ibb.co.com/93kp2PM/562shots-so.png",
-            liveLink: "https://project3.demo",
-            githubLink: "https://github.com/demo/project3",
+            liveLink: "https://eco-adventure-experience-e7390.web.app/",
+            githubLink: "https://github.com/programming-hero-web-course1/b10-a9-authentication-mahfuzzahmed",
         },
     ];
 
@@ -51,11 +51,11 @@ const Cardstack = () => {
     };
 
     return (
-        <div data-aos="fade-up"  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
             {cards.map((card) => (
                 <div
                     key={card.id}
-                    className="bg-white rounded-lg shadow-md overflow-hidden"
+                    className="bg-white rounded-lg shadow-md overflow-hidden border"
                 >
                     <img
                         src={card.image}
@@ -63,7 +63,7 @@ const Cardstack = () => {
                         className="w-full h-48 object-cover"
                     />
                     <div className="p-4">
-                        <h2 className="text-lg font-bold">{card.title}</h2>
+                        <h2 className="text-lg font-extrabold">{card.title}</h2>
                         <p className="text-sm text-gray-600">{card.description}</p>
                         <div className="flex flex-wrap gap-2 mt-2">
                             {card.technologies.map((tech) => (
@@ -77,14 +77,14 @@ const Cardstack = () => {
                             ))}
                         </div>
                         <div className="flex flex-wrap gap-4 mt-4">
-                            <a
+                            <a target="_blank"
                                 href={card.liveLink}
                                 className="text-blue-500 flex items-center gap-1"
                             >
                                 <FiExternalLink size={16} />
                                 Live Website
                             </a>
-                            <a
+                            <a target="_blank"
                                 href={card.githubLink}
                                 className="text-gray-600 flex items-center gap-1"
                             >
